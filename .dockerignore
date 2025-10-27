@@ -50,3 +50,9 @@ tmp
 **.DS_Store
 docs
 **/*.md
+
+# ensure helper scripts are included in Docker build
+!scripts/
+!scripts/start.sh
+!scripts/db-migrate.mjs
+!scripts/wait-for
